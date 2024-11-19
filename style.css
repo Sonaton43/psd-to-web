@@ -1,0 +1,333 @@
+/*Start Framework*/
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+.container{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+h1,h2,h3,h4,h5,h6,p{
+    font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; 
+}
+.text-center{
+    text-align: center;
+}
+.primary_color{
+    background-color: #7b77c9;
+}
+.secondary_color{
+    background-color: #23232e;
+}
+/*End Framework*/
+
+/*Header dection Start*/
+.header{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.logo img{
+    height: 80px;
+}
+.header h1{
+    font-size: 80px;
+    text-transform: uppercase;
+    padding: 10px;
+}
+.header p{
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+.header a span{
+    border: 2px solid white;
+    border-radius: 50%;
+    display: inline-block;
+    color: white;
+    height: 28px;
+    width: 28px;
+}
+/*Header Section End*/
+/*What I Do Section Start*/
+.what_i_do{
+    background-image: url('../image/1.jpg');
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.what_i_do h5{
+    padding: 20px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    color:  #464b4f;
+}
+.what_i_do h2{
+    margin: 80px 0px 60px 0px;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 36px;
+    color:  #464b4f;
+}
+.what_i_do_items{
+    color: #23232e;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.what_i_do_items .item{
+    width: 32%;
+}
+.what_i_do_items .item h6{
+    color: #464b4f;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+.what_i_do_items .item p{
+    color: #888a8b;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+/*What I Do Section End*/
+
+/*Mywork Section Start*/
+.mywork{
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+.mywork h2{
+    font-size: 60px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+.mywork nav a{
+    color: #fff;
+    margin: 15px;
+    text-decoration: none;
+}
+.mywork nav a:hover{
+    border-bottom: 2px solid #7b77c9;
+}
+.mywork_items{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+.mywork_item{
+    padding-bottom: 10px;
+    flex: 1;
+}
+.mywork_item h6{
+    font-size: 18px;
+    line-height: 36px;
+    color: #fff;
+    padding-top: 10px;
+}
+.mywork_item p{
+    font-size: 14px;
+    line-height: 36px;
+    color: #464b4f;;
+}
+.mywork_btn{
+    margin-top: 50px;
+    border: none;
+    border: 1px;
+    border-radius: 5px;
+    background-color: #7b77c9;
+    color: #fff;
+    padding: 15px;
+}
+.mywork_btn:hover{
+    border: 2px solid #7b77c9;
+    background-color: transparent;
+    cursor: pointer;
+}
+/*Mywork Section End*/
+
+/*Photography Section Start*/
+.photography{
+    background-image: url('../image/1.jpg');
+    background-size: cover;
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+.photography h2{
+    font-size: 60px;
+    font-weight: 700;
+    color: #464b4f;;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.photography p{
+    margin: 0 auto;
+    width: 60%;
+    font-size: 20px;
+    font-weight: 400;
+    color: #888a8b;
+}
+.photography_items{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+.photography_item{
+    padding-bottom: 10px;
+    flex: 1;
+}
+.photography_btn{
+    margin-top: 50px;
+    background-color: #7b77c9;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    padding: 15px;
+}
+.photography_btn:hover{
+    border: 2px solid #7b77c9;
+    background-color: transparent;
+    color: #23232e;
+    cursor: pointer;
+}
+/*Photography Section End*/
+
+/*Subscribe Section Start*/
+.subscribe{
+    padding-top: 100px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+.subscribe .fa-infinity{
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+}
+.subscribe p{
+    color: white;
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 18px;
+    padding: 50px;
+}
+.subscribe .subscribe_ib input{
+    padding: 15px 50px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: none;
+}
+.subscribe_btn{
+    padding: 15px 40px;
+    background-color: #7b77c9;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+} 
+.subscribe_btn:hover{
+    border: 2px solid #7b77c9;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+/*Subscribe Section End*/
+
+/*Footer dection End*/
+.footer{
+    background-image: url('../image/1.jpg');
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+    height: 250px;
+    color: #dbdbdb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer-icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.icons a{
+    text-decoration: none;
+    font-size: 30px;
+    color: #888a8b;
+    margin: 20px;
+}
+.footer p{
+    font-size: 18px;
+    padding: 5px;
+    color: #888a8b;
+}
+/*Footer are End*/
+
+
+/*Responsive Media start*/
+@media screen and (max-width: 768px) {
+    .what_i_do_items .item{
+        width: 50%;
+        padding-bottom: 30px;
+    }
+    .mywork_item{
+        flex: 2;
+    }
+    .photography_item{
+        padding-bottom: 15px;
+        flex: 2;
+    }
+  }
+@media screen and (max-width: 600px) {
+    .what_i_do_items .item{
+        width: 100%;
+        padding-bottom: 30px;
+    }
+    .mywork_item{
+        flex: 3;
+    }
+    .photography_item{
+        padding-bottom: 15px;
+        flex: 3;
+    }
+    .subscribe .subscribe_ib input{
+        width: 300px;
+        margin-bottom: 20px;
+    }
+    .subscribe_btn{
+        width: 150px;
+        margin-bottom: 20px;
+    } 
+    .mywork nav a{
+        font-size: 12px;
+    }
+  }
